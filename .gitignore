@@ -1,0 +1,8 @@
+# Ignorar o arquivo .env
+.env
+
+# Ignorar qualquer arquivo .env na estrutura de pastas
+**/.env
+
+# Ignorar arquivos temporários relacionados ao .env
+.env.*
