@@ -36,6 +36,7 @@ router.post('/pix', async (req, res) => {
                 success: true,
                 status: result.status,
                 point_of_interaction: result.point_of_interaction,
+                result:result
             });
     } catch (error) {
         // Log de erro detalhado

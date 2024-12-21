@@ -15,7 +15,7 @@ app.use(cors());  // Agora o servidor permite requisições de qualquer origem
 // Middleware para parsear o corpo das requisições em JSON
 app.use(bodyParser.json());
 
-app.set('port', 8000);
+app.set('port', 7000);
 
 // Usando o Router no Express
 app.use('/server', require('./routes/payment.routes'));  // todas as rotas no arquivo 'routes.js' começam com '/'
